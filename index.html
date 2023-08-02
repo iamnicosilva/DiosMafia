@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dios Mafia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="h1">Dios Mafia</h1>
+
+    <div class="js-flex-container">
+        <!-- <form action="" id="formNumero">
+            <h3>Ingrese el numero de participantes:</h3>
+            <input type="number" id="inParticipantes" placeholder="min: 6"> <br>
+            <button onclick="obtenerNumero()">Aceptar</button>
+        </form> -->
+        <!-- <form action="" id="formNombres">
+            <button onclick="comenzarJuego()" class="hide" id="botonComenzar">Comenzar</button>
+        </form> -->
+        <!-- <div class="integrante" id="divIntegrante"><p class="textoIntegrante" id="pIntegrante"></p></div> -->
+        
+    </div>
+    <br>
+    <br><br><br>
+    <button onclick="consultarStorage()">Consultar</button>
+    <button onclick="limpiar()">Reiniciar</button>
+    
+    
+    <script defer src="main.js"></script>
+    <select name="roles" id="selectRoles">
+        <option value="">Seleccione Rol</option>
+        <option value="policia">Policía - 1 Espada</option>
+        <option value="medico">Médico/a - 1 Basto</option>
+        <option value="mafia">Mafia - 7</option>
+        <option value="pueblo">Civil - 10-11-12</option>
+    </select>
+</body>
+</html>

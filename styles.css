@@ -1,0 +1,33 @@
+.hide {
+    display: none;
+}
+
+body {
+    background-color: brown;
+    color: blanchedalmond;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 100px;
+}
+
+.js-flex-container {
+    background-color: rgb(111, 68, 68);
+    padding: 50px;
+    margin: auto auto;
+}
+
+
+.js-flex-container input{
+    margin: 5px;
+}
+
+.js-flex-container button{
+    margin: 10px;
+}
+
+.js-flex-container div{
+    background-color: rgb(42, 12, 66);
+    display: inline-flex;
+    margin: 15px;
+    padding: 15px;
+}
